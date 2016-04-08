@@ -1,5 +1,5 @@
 list = [1,2,3,4,5]
-my_dic = {'Yusuf': 'Yusuf'}
+my_dictionary = {'Yusuf': 'Yusuf'}
 
 
 def reduce(collection, accumulator, start):
@@ -41,7 +41,7 @@ def histogram(array):
 
 #print(histogram(list))
 
-def some_shit():
+def some_stuff():
     n = input()
     str = input()
     arr = str.split()
@@ -53,6 +53,6 @@ def some_shit():
 
 
     return sum(res)/len(res)
-print(some_shit())
+print(some_stuff())
 
 
